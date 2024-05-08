@@ -1,6 +1,70 @@
-h1 {
-    font-size: 50px;
+
+body, h1, h2, h3, h4, ul, li, p, footer {
+    margin: 0;
+    padding: 0;
 }
-* {
+
+/* Body style */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e6e6e6;
+}
+
+/* Container style */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header style */
+h1 {
+    font-size: 36px;
+    color: #333;
     text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Image style */
+img {
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+/* Link style */
+a {
+    color: #009688;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #00796b;
+}
+
+/* Section heading style */
+h2 {
+    font-size: 24px;
+    color: #333;
+    margin-top: 40px;
+}
+
+/* Summary style */
+h4 {
+    font-size: 18px;
+    line-height: 1.5;
+    color: #666;
+}
+
+/* Footer style */
+footer {
+    text-align: center;
+    font-size: 14px;
+    color: #999;
+    margin-top: 40px;
+}
+
+footer p {
+    margin-bottom: 10px;
 }
